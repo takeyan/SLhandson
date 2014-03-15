@@ -1,0 +1,10 @@
+{
+        "nginx":{
+                "port":8080
+        },
+
+        "run_list":[
+                "recipe[users]",
+                "recipe[nginx]"
+        ]
+}
