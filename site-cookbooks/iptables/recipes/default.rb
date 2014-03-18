@@ -48,3 +48,10 @@ end
 
 iptables_rule "all_established"
 iptables_rule "all_icmp"
+
+
+iptables_rule "http"
+iptables_rule "http8080"
+iptables_rule "https"
+iptables_rule "ssh"
+
